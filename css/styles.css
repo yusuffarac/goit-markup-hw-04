@@ -124,6 +124,7 @@ section {
   padding: 120px 0;
   background-color: #FFFFFF;
 }
+
 .goals-team li {
   list-style-type: none;
 }
@@ -257,31 +258,7 @@ section {
   color: #2e2f42;
 }
 
-.camila {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.5rem;
-  letter-spacing: 2%;
-  color: #2e2f42;
-}
-.mark {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.5rem;
-  letter-spacing: 2%;
-  color: #2e2f42;
-}
-.tom {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.5rem;
-  letter-spacing: 2%;
-  color: #2e2f42;
-}
-.daniel {
+.person-div-card {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -299,9 +276,6 @@ section {
   color: #2e2f42;
   margin-bottom: 72px ;
 }
-
-
-
 
 .footer-footer {
   background-color: #2e2f42;
@@ -347,19 +321,18 @@ img {
 }
 .main-header {
   background-color:  #ffffff ;
-  padding-left: 100px;
+  border-bottom: 1px solid #e7e9fc;
 }
 .header-div a {
   background-color: #ffffff;
 }
-.container-header container {
+.container-header {
   display: flex;
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
-  justify-content: space-between;
 }
-.container-effective container {
+.container-effective {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
@@ -386,28 +359,26 @@ img {
   background-color:  #ffffff ;
   display: flex;
   align-items: center;
-  margin-right: 50px;
-  margin-left: 50px;
 }
 .page-menu-list a {
   gap: 40px;
   align-items: center;
-  margin-right: 30px;
 }
 .mail-tel li {
   list-style-type: none;
 }
 .mail-tel-list {
-  display: flex;
-  gap: 40px;
+  gap: 20px; 
 }
 .mail-tel {
-  margin-left: 650px;
-  display: flex;
-  gap: 40px;
+ margin-left: 50px;
+ padding-right: 0;
+ display: flex;
+ gap: 20px;
+ padding-left: 350px;
 }
 .mail-tel a {
-  display: flex;
+  vertical-align: middle;
 }
 .effective-solutions {
   padding: 188px 0;
@@ -436,6 +407,7 @@ img {
   background-color: #4d5ae5;
   cursor: pointer;
   margin-top: 30px;
+  gap: 10px;
 }
 /* section goals*/
 .team-section-content {
@@ -457,7 +429,7 @@ img {
   display: flex;
   padding-left: 570px;
 }
-.container-2 {
+.container-our-team {
   max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
