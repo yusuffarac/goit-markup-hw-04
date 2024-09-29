@@ -388,7 +388,7 @@ img {
 }
 
 .effective-solutions h1 {
-  max-width: 496px;
+  max-width: 500px;
   margin: 0 auto;
   margin-top: 80px;
   align-items: center;
@@ -408,6 +408,7 @@ img {
   cursor: pointer;
   margin-top: 30px;
   gap: 10px;
+ margin-left: 470px;
 }
 /* section goals*/
 .team-section-content {
