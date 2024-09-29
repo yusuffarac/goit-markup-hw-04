@@ -529,9 +529,9 @@ img {
 }
 .footer-footer a {
   display: flex;
-  padding-left: 200px;
+  padding-left: 400px;
 }
 .footer-footer p {
-  padding-left: 200px;
+  padding-left: 400px;
   max-width: 264px;
 }
